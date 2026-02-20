@@ -1,56 +1,31 @@
-E-commerce Data Analysis: Navigating the Future of Online Shopping Project Overview
-This project focuses on analyzing a comprehensive e-commerce dataset to extract actionable business insights. By integrating SQL for robust data querying and Python for advanced data manipulation and visualization, the project explores customer demographics, sales trends, and product performance. The goal is to transform raw data into a strategic narrative that can guide business decision-making.
-
- Problem Statement
-In a competitive e-commerce landscape, businesses often struggle to identify the "why" behind their sales figures. This project addresses the following key challenges:
-
-Customer Retention: Understanding how many customers return for a second purchase.
-
-Sales Growth: Measuring Year-over-Year (YoY) performance and monthly revenue trends.
-
-Operational Efficiency: Analyzing regional order distribution and payment preferences (e.g., installments).
-
-Product Strategy: Identifying the correlation between pricing and purchase frequency to optimize inventory.
-
- Key Insights
-Based on the analysis performed in the SQL scripts and Python notebook, the following insights were uncovered:
-
-Regional Dominance: A significant portion of the customer base is concentrated in specific states and cities, indicating potential for targeted regional marketing.
-
-Payment Behavior: A measurable percentage of customers prefer payment installments, suggesting that financial flexibility is a key driver for higher-value orders.
-
-Sales Seasonality: Monthly revenue analysis for 2017 and 2018 revealed specific peak seasons, likely tied to holidays or promotional events.
-
-Customer Loyalty: The retention rate analysis showed that only a specific segment of customers makes a repeat purchase within 6 months, highlighting a need for better re-engagement strategies.
-
-Price Sensitivity: There is a distinct correlation between product price and purchase frequency, with mid-range products often driving the highest volume.
-
- Recommendations
-To drive growth based on these findings, the following actions are recommended:
-
-Enhance Retention Programs: Launch loyalty campaigns or personalized email marketing for one-time buyers within the 6-month window to improve the retention rate.
-
-Optimize Installment Plans: Since installments are popular, partner with more payment gateways to offer "Buy Now, Pay Later" (BNPL) options for high-ticket categories.
-
-Inventory Stocking: Align inventory levels with the identified "peak months" to prevent stockouts during high-demand periods.
-
-Targeted Geographic Marketing: Allocate more advertising budget to high-performing states while running "market penetration" campaigns in lower-performing cities.
-
-Dynamic Pricing: Adjust pricing for low-frequency, high-price items to see if a slight reduction triggers a significant volume increase, as seen in the correlation analysis.
-
-🛠️ Tech Stack & Tools
-Database: MySQL (Querying and Data Aggregation)
-
-Language: Python (Data Cleaning and Visualization)
-
-Libraries: Pandas, Matplotlib,  SQLAlchemy
-
-Tools: Google Colab, MySQL Workbench, Microsoft PowerPoint
-
-
-
-
-
-
-
-
+E-Commerce Data Analysis: A Comparative SQL & Python Approach
+​ Project Overview
+​This project focuses on analyzing an e-commerce dataset to extract fundamental and strategic business insights. The analysis is performed twice—once using SQL (for database management and querying) and once using Python (for data manipulation and visualization)—to provide a comparative perspective on data handling.
+​Repository Structure
+​project 3 sql queries.sql: Contains the full SQL workflow, including database creation, table schema definitions, and analytical queries.
+​project_3_python.ipynb: A Jupyter Notebook containing the Python implementation using Pandas, Matplotlib, and Seaborn.
+​Navigating the Future of Online Shopping.pptx: A summary presentation deck visualizing the problem statements and key findings.
+​ Tech Stack
+​SQL: MySQL (Database Creation, Joins, Window Functions).
+​Python: Pandas, NumPy (Data Cleaning & Analysis).
+​Visualization: Matplotlib, Seaborn.
+​🔍 Key Analysis & Problem Statements
+​The project is divided into three levels of complexity:
+​1. Basic Problems
+​Identify unique cities where customers are located.
+​Count the total number of orders placed in 2017.
+​Calculate the percentage of orders paid in installments.  
+​2. Intermediate Problems
+​Group the average number of products per order by customer city.
+​Calculate the percentage of total revenue contributed by each product category.  
+​Analyze the correlation between product price and purchase frequency.  
+​Rank sellers based on total revenue generated.  
+​3. Advanced Problems
+​Moving Average: Calculate the moving average of order values for each customer over their history.  
+​Cumulative Sales: Track monthly cumulative sales for each year.  
+​Retention Rate: Determine the customer repurchase rate within a 6-month window.
+​Top Performers: Identify the top 3 customers by spending for each year 
+Sample Visualization
+​The Python analysis includes visualizations such as:
+​Total orders per month in 2018.
+​Revenue contribution by category.
