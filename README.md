@@ -1,4 +1,4 @@
-E-Commerce Data Analysis: A Comparative SQL & Python Approach
+E-Commerce Data Analysis:       A Comparative SQL & Python Approach
 ​ Project Overview
 ​This project focuses on analyzing an e-commerce dataset to extract fundamental and strategic business insights. The analysis is performed twice—once using SQL (for database management and querying) and once using Python (for data manipulation and visualization)—to provide a comparative perspective on data handling.
 ​Repository Structure
@@ -9,7 +9,7 @@ E-Commerce Data Analysis: A Comparative SQL & Python Approach
 ​SQL: MySQL (Database Creation, Joins, Window Functions).
 ​Python: Pandas, NumPy (Data Cleaning & Analysis).
 ​Visualization: Matplotlib, Seaborn.
-​🔍 Key Analysis & Problem Statements
+Key Analysis & Problem Statements
 ​The project is divided into three levels of complexity:
 ​1. Basic Problems
 ​Identify unique cities where customers are located.
